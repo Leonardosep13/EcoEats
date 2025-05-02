@@ -37,4 +37,3 @@ yarn-error.*
 *.tsbuildinfo
 
 superSecret.json
-supabase.ts
