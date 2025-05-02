@@ -25,16 +25,16 @@ export default function About() {
             <Image source={require("../../../assets/logo.png")} style={styles.logo} resizeMode="contain" />
           </View>
 
-          <Text style={styles.title}>Recycle Map</Text>
+          <Text style={styles.title}>EcoEats</Text>
           <Text style={styles.version}>Versión 1.0.0</Text>
 
           <View style={styles.card}>
             <Text style={styles.description}>
-              Recycle Map es una aplicación dedicada a promover el reciclaje y la conciencia ambiental dentro de la
+               EcoEats es una aplicación dedicada a promover la alimentacion responsable y la conciencia ambiental dentro de la
               comunidad universitaria de CUCEI.
             </Text>
             <Text style={styles.description}>
-              Nuestra misión es facilitar la localización de puntos de reciclaje, proporcionar información útil sobre
+              Nuestra misión es facilitar el uso de comida para evitar el desperdicio de la misma asi como proporcionar información útil sobre
               prácticas sostenibles y fomentar la participación activa en la protección del medio ambiente.
             </Text>
           </View>
@@ -42,12 +42,12 @@ export default function About() {
           <Text style={styles.sectionTitle}>Características principales</Text>
           <View style={styles.featureCard}>
             <View style={styles.featureIconContainer}>
-              <MaterialCommunityIcons name="map-marker" size={24} color="#FF0000" />
+              <MaterialCommunityIcons name="food-fork-drink" size={24} color="#FF0000" />
             </View>
             <View style={styles.featureContent}>
               <Text style={styles.featureTitle}>Mapa Interactivo</Text>
               <Text style={styles.featureDescription}>
-                Localiza fácilmente los puntos de reciclaje más cercanos en el campus.
+                Identifica una mejor manera de administrar alimentos.
               </Text>
             </View>
           </View>
@@ -59,7 +59,7 @@ export default function About() {
             <View style={styles.featureContent}>
               <Text style={styles.featureTitle}>Artículos Informativos</Text>
               <Text style={styles.featureDescription}>
-                Accede a contenido educativo sobre reciclaje y prácticas sostenibles.
+                Accede a contenido educativo sobre uso responsable de alimentos.
               </Text>
             </View>
           </View>
@@ -71,7 +71,7 @@ export default function About() {
             <View style={styles.featureContent}>
               <Text style={styles.featureTitle}>Comunidad</Text>
               <Text style={styles.featureDescription}>
-                Conecta con otros usuarios comprometidos con el medio ambiente.
+                Conecta con otros usuarios comprometidos con el medio ambiente y la conservacion de alimentos.
               </Text>
             </View>
           </View>
@@ -86,7 +86,7 @@ export default function About() {
             </TouchableOpacity>
           </View>
 
-          <Text style={styles.copyright}>© 2025 Recycle Map. Casi Todos los derechos reservados.</Text>
+          <Text style={styles.copyright}>© 2025 EcoEats. Casi Todos los derechos reservados.</Text>
         </View>
       </ScrollView>
     </SafeAreaView>

@@ -155,7 +155,7 @@ const HomeScreen = ({ navigation }) => {
             }
           ]}
         >
-          <MaterialCommunityIcons name="recycle" size={30} color="rgba(255,255,255,0.3)" />
+          <MaterialCommunityIcons name="food-fork-drink" size={30} color="rgba(255,255,255,0.3)" />
         </Animated.View>
         
         <Animated.View 
@@ -168,7 +168,7 @@ const HomeScreen = ({ navigation }) => {
             }
           ]}
         >
-          <MaterialCommunityIcons name="leaf" size={24} color="rgba(255,255,255,0.25)" />
+          <MaterialCommunityIcons name="food-steak" size={24} color="rgba(255,255,255,0.25)" />
         </Animated.View>
         
         <Animated.View 
@@ -181,7 +181,7 @@ const HomeScreen = ({ navigation }) => {
             }
           ]}
         >
-          <MaterialCommunityIcons name="water-outline" size={28} color="rgba(255,255,255,0.2)" />
+          <MaterialCommunityIcons name="food-outline" size={28} color="rgba(255,255,255,0.2)" />
         </Animated.View>
       </View>
 
@@ -225,7 +225,7 @@ const HomeScreen = ({ navigation }) => {
                 { opacity: appNameOpacity }
               ]}
             >
-              Recycle Map
+              EcoEats
             </Animated.Text>
             
             <Animated.Text 
@@ -234,7 +234,7 @@ const HomeScreen = ({ navigation }) => {
                 { opacity: taglineOpacity }
               ]}
             >
-              Juntos por un Cucei más verde
+              Juntos por un Cucei menos hambriento
             </Animated.Text>
           </Animated.View>
 

@@ -58,7 +58,7 @@ function ChatbotButton() {
         activeOpacity={0.8}
       >
         <LinearGradient colors={["#FF0000", "#ff0000"]} style={styles.chatbotGradient}>
-          <MaterialCommunityIcons name="chat-processing" size={28} color="#fff" />
+          <MaterialCommunityIcons name="robot" size={28} color="#fff" />
         </LinearGradient>
       </TouchableOpacity>
     </Animated.View>

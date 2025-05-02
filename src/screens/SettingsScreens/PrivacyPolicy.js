@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
               <Text style={styles.sectionTitle}>1. Introducción</Text>
             </View>
             <Text style={styles.paragraph}>
-              Bienvenido a Recycle Map. Nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica
+              Bienvenido a EcoEats. Nos comprometemos a proteger tu privacidad. Esta Política de Privacidad explica
               cómo recopilamos, usamos, divulgamos y salvaguardamos tu información cuando utilizas nuestra aplicación
               móvil.
             </Text>

@@ -71,24 +71,19 @@ export default function Help() {
 
   const faqs = [
     {
-      question: "¿Cómo encuentro un punto de reciclaje?",
+      question: "¿Cómo puedo ver recetas?",
       answer:
-        "Navega a la pantalla principal y utiliza el mapa interactivo para localizar los contenedores más cercanos. Puedes hacer zoom en el mapa para ver con más detalle.",
-    },
-    {
-      question: "¿Qué tipo de materiales puedo reciclar?",
-      answer:
-        "En los puntos de reciclaje del campus puedes depositar papel, cartón, plástico (PET, HDPE), vidrio, aluminio y electrónicos pequeños. Consulta la sección de 'Guías' o los artículos informativos para obtener detalles específicos sobre cada material.",
+        "Navega a la pantalla principal y utiliza la pantalla principal para deslizar y buscar una receta de acuerdo a tus necesidades.",
     },
     {
       question: "¿Cómo puedo contribuir al proyecto?",
       answer:
-        "Puedes contribuir utilizando la aplicación, reportando nuevos puntos de reciclaje, compartiendo artículos informativos y participando en eventos de reciclaje organizados por la comunidad.",
+        "Puedes contribuir utilizando la aplicación, proponiendo nuevas recetas o ingredientes que sean suceptibles a descomponerse demasiado rapido.",
     },
     {
       question: "¿La aplicación funciona fuera del campus?",
       answer:
-        "Actualmente, la aplicación está optimizada para el campus universitario de CUCEI, pero estamos trabajando para expandir la cobertura a otras áreas. Puedes consultar los artículos informativos y guías de reciclaje desde cualquier ubicación.",
+        "Por supuesto que si en EcoEats no creemos en bloqueos regionales. Puede usarse en cualquier localizacion siempre y cuando el usuario pertenezca a la comunidad universitaria.",
     },
     {
       question: "¿Cómo reporto un problema con la aplicación?",

@@ -220,7 +220,6 @@ export const MainScreen = ({ navigation }) => {
           <View style={styles.headerLeft}>
             <Text style={styles.greeting}>Hola, {userName}</Text>
             <View style={styles.locationContainer}>
-              <MaterialCommunityIcons name="map-marker" size={16} color="#FF0000" />
               <Text style={styles.location}>CUCEI, UdeG</Text>
             </View>
           </View>
@@ -236,12 +235,12 @@ export const MainScreen = ({ navigation }) => {
       >
         {/* Mapa con zoom por pellizco */}
         <View style={styles.mapContainer}>
-          <MapZoomableView mapSource={require("../../assets/mapa.png")} />
+          <MapZoomableView mapSource={require("../../assets/mapa.jpg")} />
         </View>
 
         {/* Sección de artículos destacados */}
         <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>Artículos Destacados</Text>
+          <Text style={styles.sectionTitle}>Recetas Destacados</Text>
         </View>
 
         {loading ? (
@@ -255,7 +254,7 @@ export const MainScreen = ({ navigation }) => {
             >
               {featuredArticles.length === 0 ? (
                 <View style={styles.emptyContainer}>
-                  <Text style={styles.emptyText}>No hay artículos destacados disponibles</Text>
+                  <Text style={styles.emptyText}>No hay recetas destacadas disponibles</Text>
                 </View>
               ) : (
                 featuredArticles.map((item, index) => (
@@ -328,7 +327,7 @@ export const MainScreen = ({ navigation }) => {
 
         {/* Lista de todos los artículos */}
         <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>Explora Artículos</Text>
+          <Text style={styles.sectionTitle}>Explora Recetas</Text>
         </View>
 
         {loading ? (
@@ -343,7 +342,7 @@ export const MainScreen = ({ navigation }) => {
             contentContainerStyle={{ paddingBottom: 20 }}
             ListEmptyComponent={
               <View style={styles.emptyContainer}>
-                <Text style={styles.emptyText}>No hay artículos disponibles</Text>
+                <Text style={styles.emptyText}>No hay recetas disponibles</Text>
               </View>
             }
           />

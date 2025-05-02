@@ -227,7 +227,7 @@ export default function SettingsScreen() {
             {/* Updated navigation target */}
             <TouchableOpacity style={styles.settingItem} onPress={() => navigateTo("ManageArticles")}>
               <MaterialCommunityIcons name="file-document-edit-outline" size={24} color="#FF0000" />
-              <Text style={styles.settingText}>Crear Artículos</Text>
+              <Text style={styles.settingText}>Crear Recetas</Text>
               <MaterialCommunityIcons name="chevron-right" size={24} color="#ccc" />
             </TouchableOpacity>
           </View>
